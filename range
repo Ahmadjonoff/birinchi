@@ -1,0 +1,6 @@
+def user_range(a, b, step=1):
+    while b > a:
+        yield a
+        a = a + step
+for i in user_range(1, 10, 5):
+    print(i)
